@@ -1,0 +1,13 @@
+In this class, our board is represented using a 2D character array.
+It provides several methods for doing interaction with the board such as placeToken, displayBoard etc., which are implemented through simple traversing and manipulations to the board array.
+
+In addition to the given methods, the class also includes 2 additional implemented methods:
+
+1) getEmptyCellsList: This method returns a list of cells that are currently unoccupied.
+This method is quite helpful and currently providing ease in implementing makeMove method of Engineer class, in Easy mode.
+
+2) bfs: This method is used to check if there's a path exist between a source and the given destination in the board.
+It plays a crucial role in the checkForWinDirection method and utilises multisource bfs algorithm for its implementation.
+
+All the methods are thoroughly tested and validated through various test cases with several different paths for its working, with varying sizes of the board.
+    
